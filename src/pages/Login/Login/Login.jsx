@@ -6,7 +6,6 @@ import { authContext } from "../../../provider/AuthProvider";
 const Login = () => {
   const navigate = useNavigate();
   const location = useLocation();
-  console.log(location);
   const from = location?.state?.from?.pathname || "/category/0";
 
   const { signInUser } = useContext(authContext);

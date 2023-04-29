@@ -26,7 +26,6 @@ const Register = () => {
         updateName(name)
           .then("profile updated")
           .catch((err) => console.error(err));
-        console.log(createdUser);
       })
       .catch((err) => console.error(err));
   };
